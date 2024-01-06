@@ -1,12 +1,12 @@
-# IDS_Responsive-system
+## IDS_Responsive-system
 
-##Overview
+## Overview
 This repository contains code and data files for an Intrusion Detection System project. The project involves data preprocessing, model training, and evaluation for intrusion detection.
 
-##Files
+## Files
 
-#Jupyter Notebooks
-1_preprocessing_file.ipynb
+### Jupyter Notebooks
+**1_preprocessing_file.ipynb**
 
 This Jupyter notebook contains the code for data preprocessing. It covers the following tasks:
 
@@ -18,7 +18,7 @@ Data Visualization: Visualizing data distributions and patterns to gain insights
 
 Feature Engineering: Preparing the data for machine learning, including categorical encoding and resampling.
 
-2_model_training_file.ipynb
+**2_model_training_file.ipynb**
 
 This Jupyter notebook contains the code for model training and evaluation. It includes the implementation of two machine learning models:
 
@@ -26,7 +26,7 @@ Support Vector Classifier (SVC): Training and evaluation of an SVC model for int
 
 Convolutional Long Short-Term Memory (LSTM) Model: Training and evaluation of a deep learning model for intrusion detection using Conv1D, LSTM, and other layers.
 
-#CSV Files
+### CSV Files
 (Intrusion_data.csv)
 This CSV file contains the raw dataset used in the project. It serves as the input data for data preprocessing and model training. The dataset likely includes various features related to network traffic and intrusion labels.
 X_train.csv
@@ -40,20 +40,20 @@ y_train.csv
 This CSV file contains the training labels corresponding to the X_train.csv data. It is used for model training and includes the target variable (intrusion labels).
 y_test.csv 1.This CSV file contains the testing labels corresponding to the X_test.csv data. It is used for evaluating model performance and includes the target variable for testing data.
 
-#Implementation
+### Implementation
 1)Open Anaconda Prompt in PC1(Server) PC2(Client).
 2)In PC1 get the locations of the files of server similarily in PC2 for client.
 3)Connect the client with server by entering IP and port number.
 4)Now send the file from client(Keeping in mind dataset in the format of excel sheet should present in PC2) to server and check weather what kind of attack it was or they were normal files.
 5)Now you must have got an alert on the mail or it might have asked your mail on which alert will be sent.
 
-#Usage
+### Usage
 Clone this repository to your local machine.
 Open the Jupyter notebooks for data preprocessing and model training.
 Explore, modify, or run the code as needed.
 The CSV files contain the data used in the notebooks.
 
-#Author
+### Author
 Vipul Tiwari
 
 Feel free to explore the notebooks and data files. If you have any questions or suggestions, please open an issue.
