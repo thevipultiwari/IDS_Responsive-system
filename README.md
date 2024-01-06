@@ -40,18 +40,25 @@ y_train.csv
 This CSV file contains the training labels corresponding to the X_train.csv data. It is used for model training and includes the target variable (intrusion labels).
 y_test.csv 1.This CSV file contains the testing labels corresponding to the X_test.csv data. It is used for evaluating model performance and includes the target variable for testing data.
 
-### Implementation
-1)Open Anaconda Prompt in PC1(Server) PC2(Client).
-2)In PC1 get the locations of the files of server similarily in PC2 for client.
-3)Connect the client with server by entering IP and port number.
-4)Now send the file from client(Keeping in mind dataset in the format of excel sheet should present in PC2) to server and check weather what kind of attack it was or they were normal files.
-5)Now you must have got an alert on the mail or it might have asked your mail on which alert will be sent.
-
 ### Usage
 Clone this repository to your local machine.
+
 Open the Jupyter notebooks for data preprocessing and model training.
+
 Explore, modify, or run the code as needed.
+
 The CSV files contain the data used in the notebooks.
+
+### Implementation
+1)Open Anaconda Prompt in PC1(Server) PC2(Client).
+
+2)In PC1 get the locations of the files of server similarily in PC2 for client.
+
+3)Connect the client with server by entering IP and port number.
+
+4)Now send the file from client(Keeping in mind dataset in the format of excel sheet should present in PC2) to server and check weather what kind of attack it was or they were normal files.
+
+5)Now you must have got an alert on the mail or it might have asked your mail on which alert will be sent.
 
 ### Author
 Vipul Tiwari
